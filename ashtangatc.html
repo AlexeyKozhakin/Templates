@@ -1,0 +1,44 @@
+<style>
+.toc > ol {
+  counter-reset: li;
+}
+.toc > ol > li {
+  counter-increment: li;
+}
+.toc ol ol {
+  counter-reset: lili;
+}
+.toc ol ol li {
+  position: relative;
+  list-style: none;
+}
+.toc ol ol li:before {
+  content: counter(li) "." counter(lili) ".";
+  counter-increment: lili;
+  position: absolute;
+  left: -2em;
+}
+</style>
+
+<nav class="toc">
+  <h2>Ashtanga Yoga Teacher Training</h2>
+  <ol>
+    <li><a href="#raz">Philosophy and history of yoga</a>
+<!--      <ol>
+        <li><a href="#steer">Бычок</a>
+        <li><a href="#bunny">Зайка</a>
+        <li><a href="#bear">Мишка</a>
+      </ol>-->
+    <li><a href="#dva">Branches of Ashtanga Yoga</a>
+	<li><a href="#dva">Standing Asanas</a>
+	<li><a href="#dva">Sitting Asnanas</a>
+    <li><a href="#dva">Asanas of middle sequence</a>
+    <li><a href="#dva">Art of Sequensing</a>
+    <li><a href="#dva">Anatomy</a>
+    <li><a href="#dva">Chakras system</a>
+    <li><a href="#dva">Pranajama</a>
+    <li><a href="#dva">Adnvanced poses (backbandes)</a>
+    <li><a href="#dva">Revision</a>
+    <li><a href="#dva">Questions and preparetion to exam</a>	
+	
+</nav>
